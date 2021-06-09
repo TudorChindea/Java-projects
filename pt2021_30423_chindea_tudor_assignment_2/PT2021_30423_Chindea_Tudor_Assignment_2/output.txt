@@ -1,0 +1,63 @@
+Time 0
+ Waiting clients:
+(2,2,3);(3,2,1);(4,2,4);(5,2,1);(7,2,3);(9,2,4);(10,2,1);(6,3,4);(8,3,2);(1,4,1);Queue 1
+closed
+Queue 2
+closed
+Time 1
+ Waiting clients:
+(2,2,3);(3,2,1);(4,2,4);(5,2,1);(7,2,3);(9,2,4);(10,2,1);(6,3,4);(8,3,2);(1,4,1);Queue 1
+closed
+Queue 2
+closed
+Time 2
+ Waiting clients:
+(6,3,4);(8,3,2);(1,4,1);Queue 1
+(2,2,3)
+Queue 2
+(3,2,1)
+Time 3
+ Waiting clients:
+(1,4,1);Queue 1
+(2,2,2)
+Queue 2
+(3,2,0)
+Time 4
+ Waiting clients:
+Queue 1
+(2,2,1)
+Queue 2
+(4,2,4)
+Time 5
+ Waiting clients:
+Queue 1
+(2,2,0)
+Queue 2
+(4,2,3)
+Time 6
+ Waiting clients:
+Queue 1
+(5,2,1)
+Queue 2
+(4,2,2)
+Time 7
+ Waiting clients:
+Queue 1
+(5,2,0)
+Queue 2
+(4,2,1)
+Time 8
+ Waiting clients:
+Queue 1
+(7,2,3)
+Queue 2
+(4,2,0)
+Time 9
+ Waiting clients:
+Queue 1
+(7,2,2)
+Queue 2
+(9,2,4)
+peak hour 9
+avg service time2
+ avg waiting time 4
