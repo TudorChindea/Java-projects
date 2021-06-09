@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="presentation.Controller">
+   <children>
+      <Button fx:id="back" layoutX="51.0" layoutY="340.0" mnemonicParsing="false" onAction="#changeSceneOnButtonActionBack" text="Back" />
+      <TableView fx:id="orderTa" layoutX="172.0" layoutY="186.0" prefHeight="200.0" prefWidth="337.0">
+        <columns>
+          <TableColumn fx:id="idClmO" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="clientidClmO" prefWidth="75.0" text="clientID" />
+            <TableColumn fx:id="productidClmO" prefWidth="75.0" text="productID" />
+            <TableColumn fx:id="productQO" prefWidth="109.99998982747394" text="product Quantity" />
+        </columns>
+      </TableView>
+      <Button fx:id="printOrdersbtn" layoutX="38.0" layoutY="230.0" mnemonicParsing="false" onAction="#printOrders" text="Display Orders" />
+      <Button fx:id="placeOrderbtn" layoutX="46.0" layoutY="92.0" mnemonicParsing="false" onAction="#placeOrder" text="Place Order" />
+      <TextField fx:id="clientIdO" layoutX="142.0" layoutY="92.0" />
+      <TextField fx:id="productIdO" layoutX="291.0" layoutY="92.0" />
+      <TextField fx:id="productQ" layoutX="440.0" layoutY="92.0" />
+      <Label layoutX="193.0" layoutY="62.0" text="Client ID" />
+      <Label layoutX="337.0" layoutY="62.0" text="Product ID" />
+      <Label layoutX="469.0" layoutY="62.0" text="product Quantity" />
+   </children>
+</AnchorPane>
