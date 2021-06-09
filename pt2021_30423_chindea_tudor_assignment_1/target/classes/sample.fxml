@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controller">
+   <children>
+      <Button fx:id="btn1" layoutX="56.0" layoutY="79.0" mnemonicParsing="false" onAction="#addPolinom" prefHeight="25.0" prefWidth="72.0" style="-fx-background-color: firebrick;" text="f(x) + g(x)" textFill="#f7f6f6" />
+      <Button fx:id="btn2" layoutX="56.0" layoutY="115.0" mnemonicParsing="false" onAction="#substractPolinom" prefHeight="25.0" prefWidth="72.0" style="-fx-background-color: firebrick;" text="f(x) - g(x)" textFill="#f9f6f6" />
+      <Button fx:id="btn3" layoutX="56.0" layoutY="155.0" mnemonicParsing="false" onAction="#multiplyPolinom" prefHeight="25.0" prefWidth="72.0" style="-fx-background-color: firebrick;" text="f(x) * g(x)" textFill="#fcfbfb" />
+      <Button fx:id="btn4" layoutX="56.0" layoutY="195.0" mnemonicParsing="false" onAction="#dividePolinom" prefHeight="25.0" prefWidth="72.0" style="-fx-background-color: firebrick;" text="f(x) / g(x)" textFill="#f7f5f5" />
+      <Button fx:id="btn5" layoutX="56.0" layoutY="237.0" mnemonicParsing="false" onAction="#integratePolinom" prefHeight="25.0" prefWidth="72.0" style="-fx-background-color: firebrick;" text="∫ f(x) dx" textFill="#fefbfb" />
+      <Button fx:id="btn6" layoutX="56.0" layoutY="279.0" mnemonicParsing="false" onAction="#derivatePolinom" prefHeight="25.0" prefWidth="72.0" style="-fx-background-color: firebrick;" text="f '(x)" textFill="#fefdfd" />
+      <Label layoutX="174.0" layoutY="79.0" prefHeight="25.0" prefWidth="36.0" style="-fx-background-color: white;" text="f(x) =" textFill="FIREBRICK" />
+      <Label layoutX="174.0" layoutY="145.0" prefHeight="25.0" prefWidth="36.0" style="-fx-background-color: white;" text="g(x) = " textFill="FIREBRICK" />
+      <Label layoutX="155.0" layoutY="220.0" prefHeight="25.0" prefWidth="55.0" style="-fx-background-color: white;" text=" Result = " textFill="FIREBRICK" />
+      <Label layoutX="56.0" layoutY="23.0" prefHeight="25.0" prefWidth="213.0" style="-fx-background-color: white;" text="Polynomial Calculator:" textFill="FIREBRICK">
+         <font>
+            <Font name="Bodoni MT" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="polin1" layoutX="238.0" layoutY="76.0" prefHeight="32.0" prefWidth="306.0" promptText="Enter First Polynomial" />
+      <TextField fx:id="polin2" layoutX="238.0" layoutY="141.0" prefHeight="32.0" prefWidth="306.0" promptText="Enter Second Polynomial" />
+      <TextField fx:id="result" layoutX="238.0" layoutY="217.0" prefHeight="32.0" prefWidth="306.0" />
+      <Button fx:id="btn7" layoutX="163.0" layoutY="320.0" mnemonicParsing="false" onAction="#getPolinoms" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: firebrick;" text="Save Polynoamials" textFill="#f7f6f6" />
+      <TextField fx:id="invalidInput" layoutX="238.0" layoutY="111.0" prefHeight="25.0" prefWidth="254.0" style="-fx-background-color: grey;" />
+      <TextField fx:id="invalidInput1" layoutX="238.0" layoutY="182.0" prefHeight="25.0" prefWidth="254.0" style="-fx-background-color: grey;" />
+      <Label layoutX="170.0" layoutY="279.0" prefHeight="25.0" prefWidth="43.0" style="-fx-background-color: white;" text=" Rest = " textFill="FIREBRICK" />
+      <TextField fx:id="result2" layoutX="238.0" layoutY="276.0" prefHeight="32.0" prefWidth="306.0" />
+   </children>
+</AnchorPane>
