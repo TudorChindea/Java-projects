@@ -1,0 +1,3 @@
+
+  Clients with at least 1 orders of minimum value 30
+ Client: Tudor

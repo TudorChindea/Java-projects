@@ -1,0 +1,9 @@
+
+    Bill for client Tudor
+
+    Date: 2021-05-31T14:55:58.126762600
+   Products
+   Spicy Pickled Shallots   Price:  78
+   Smoked Caviar and Hummus on Pita Toasts   Price:  79
+   Cilantro-Tomato Salsa   Price:  32
+   Total price:  189

@@ -1,0 +1,10 @@
+
+    Bill for client Alex
+
+    Date: 2021-05-21T08:37:29.298464
+   Products
+   Quick & Spicy Asian Pickles   Price:  48
+   Ancho-Guajillo Chile Sauce   Price:  35
+   Chipotle-Sesame Chicken Skewers   Price:  100
+   Gyoza (Japanese Dumplings)   Price:  10
+   Total price:  193

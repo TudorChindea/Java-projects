@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Presentation.ClientUI">
+   <children>
+      <Label layoutX="66.0" layoutY="51.0" text="Title" />
+      <TableView fx:id="menuTa" layoutX="31.0" layoutY="100.0" prefHeight="200.0" prefWidth="531.0">
+        <columns>
+          <TableColumn fx:id="titleclm" prefWidth="75.0" text="Title" />
+          <TableColumn fx:id="ratingclm" prefWidth="75.0" text="Rating" />
+            <TableColumn fx:id="proteinclm" prefWidth="75.0" text="Protein" />
+            <TableColumn fx:id="caloriesclm" prefWidth="75.0" text="Calories" />
+            <TableColumn fx:id="fatclm" prefWidth="75.0" text="Fat" />
+            <TableColumn fx:id="sodiumclm" prefWidth="75.0" text="Sodium" />
+            <TableColumn fx:id="priceclm" prefWidth="75.0" text="Price" />
+        </columns>
+      </TableView>
+      <Button fx:id="backbtn2" layoutX="511.0" layoutY="335.0" mnemonicParsing="false" onAction="#backLogin" text="Back" />
+      <Button fx:id="printBtn" layoutX="511.0" layoutY="300.0" mnemonicParsing="false" onAction="#printItem" text="Print" />
+      <Label layoutX="130.0" layoutY="52.0" text="Rating" />
+      <Label layoutX="202.0" layoutY="52.0" text="Protein" />
+      <Label layoutX="277.0" layoutY="52.0" text="Calories" />
+      <Label layoutX="357.0" layoutY="52.0" text="Fat" />
+      <Label layoutX="422.0" layoutY="52.0" text="Sodium" />
+      <Label layoutX="507.0" layoutY="52.0" text="Price" />
+      <TextField fx:id="titletxt" layoutX="18.0" layoutY="73.0" prefHeight="25.0" prefWidth="101.0" />
+      <TextField fx:id="ratingtxt" layoutX="119.0" layoutY="73.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="proteintxt" layoutX="189.0" layoutY="73.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="caloriestxt" layoutX="265.0" layoutY="70.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="fattxt" layoutX="342.0" layoutY="70.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="sodiumtxt" layoutX="410.0" layoutY="70.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="pricetxt" layoutX="488.0" layoutY="70.0" prefHeight="25.0" prefWidth="63.0" />
+      <Button fx:id="filterbtn" layoutX="40.0" layoutY="27.0" mnemonicParsing="false" onAction="#filterby" text="Filter by" />
+      <Button fx:id="selectItembtn" layoutX="31.0" layoutY="313.0" mnemonicParsing="false" onAction="#selectItem" text="Select Item" />
+      <Button fx:id="placeorderBtn" layoutX="29.0" layoutY="347.0" mnemonicParsing="false" onAction="#placeOrder" text="Place Order" />
+   </children>
+</AnchorPane>

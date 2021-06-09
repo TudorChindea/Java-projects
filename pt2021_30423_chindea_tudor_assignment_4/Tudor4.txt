@@ -1,0 +1,14 @@
+
+    Bill for client Tudor
+
+    Date: 2021-05-21T03:02:33.203165400
+   Products
+   Fresh Corn Tortillas   Price:  79
+   Quick & Spicy Asian Pickles   Price:  48
+   Spicy Pickled Shallots   Price:  78
+   Fresh Corn Tortillas   Price:  79
+   Quick & Spicy Asian Pickles   Price:  48
+   Spicy Pickled Shallots   Price:  78
+   Fresh Corn Tortillas   Price:  79
+   Fresh Corn Tortillas   Price:  79
+   Total price:  568
